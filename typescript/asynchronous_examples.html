@@ -1,0 +1,22 @@
+<html>
+	<script>//setTimeout(function(){console.log("hello manumits")},2000);
+		function add(x,y,c){
+			setTimeout(function(){
+				var z;
+				z=x+y;	
+				c(z);				
+			},3000);
+		}
+		
+		function disp(){
+			console.log("Im praveen");
+		}
+		
+		add(10,20,function(res){console.log("the addition of two numbers:",res)});
+		disp();
+		//synchronous 
+	</script>
+</html>
+
+
+	

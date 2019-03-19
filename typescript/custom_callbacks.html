@@ -1,0 +1,26 @@
+<html>
+	<script>
+		function add(a,b){
+			var c;
+			c=a+b;
+			console.log(c);
+		}
+		add(55,60);
+		
+		function sum(a,b){
+			var c;
+			c=a+b;
+			return c;
+		}
+		var res = sum(55,60);
+		console.log(res);
+		
+		function plus(a,b,c){
+			var d;
+			d=a+b;
+			c(d);
+		}
+		
+		plus(55,60,function(res){console.log(res)});
+	</script>
+</html>
